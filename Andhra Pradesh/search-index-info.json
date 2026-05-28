@@ -1,6 +1,8 @@
 {
   "totalChunks": 0,
-  "indexedAt": 1779975705276,
+  "indexedAt": 1779992171191,
+  "codeHash": "4846264331892d96acf1e86d9494417cfa0cbbaf2b22927b2ca2c2848b53985d",
   "fileToChunk": {},
-  "compressed": true
+  "compressed": true,
+  "chunkTimestamps": {}
 }
