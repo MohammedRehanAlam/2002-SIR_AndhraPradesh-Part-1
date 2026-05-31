@@ -1399,9 +1399,7 @@ function buildCard({ fileInfo, matches }, terms, index) {
           let count = 0;
           val = val.replace(/ +/g, (match) => {
             count++;
-            if (count <= 1) return " \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 ";
-            if (count <= 2) return " \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 ";
-            if (count <= 3) return " \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 ";
+            if (count <= 10) return " \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 ";
             return match;
           });
         }
